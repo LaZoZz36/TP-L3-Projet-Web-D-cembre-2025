@@ -1,0 +1,190 @@
+#logo {
+            width: 110px; /* Réduire la largeur de l'image */
+            height: auto; /* Maintenir les proportions */
+            margin-left: 80px; /* Ajouter un espace à gauche */
+            margin-top: -30px;
+        }
+
+        .menu1 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 45px;
+            background-color: #333333;
+            color: white;
+            display: flex;
+            align-items: center;
+        }
+
+        .menu1 menu { 
+            margin: 0; /* Supprimer les marges par défaut */
+            padding: 0; /* Supprimer les paddings par défaut */
+            display: flex; 
+            align-items: center;
+        }
+
+        .menu2 {
+            margin-top: 40px;
+            margin-left: -10px;
+            width: 101%; /* Faire en sorte que le menu prenne toute la largeur */
+            height: 110px; /* Définir une hauteur pour le menu */
+            display: flex; /* Aligner les éléments horizontalement */
+            align-items: center; /* Centrer verticalement l'image et le texte */
+            gap: 10px; /* Ajouter un espace entre l'image et le texte */
+            background-color: white;
+        }
+        .menu3 {
+            margin-top:30px;
+            margin-left: 100px;
+            width: 1100px;
+            align-items: center;
+            padding: 20px; /* Espacement intérieur */
+            border: 1px solid rgba(0, 0, 0, 0.12); /* Bordure grise */
+            border-radius: 3px; /* Coins arrondis */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+            height: 350px;
+            text-align: center;
+            background-color: white;
+        }
+        .menu4 {
+            margin-top:30px;
+            margin-left: 100px;
+            width: 1100px;
+            align-items: center;
+            padding: 20px; /* Espacement intérieur */
+            border: 1px solid rgba(0, 0, 0, 0.12); /* Bordure grise */
+            border-radius: 3px; /* Coins arrondis */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+            height: 40px;
+            text-align: center;
+            background-color: white;
+        }
+        .menu5 {
+            margin-top:30px;
+            margin-left: 100px;
+            width: 1100px;
+            align-items: center;
+            padding: 20px; /* Espacement intérieur */
+            border: 1px solid rgba(0, 0, 0, 0.12); /* Bordure grise */
+            border-radius: 3px; /* Coins arrondis */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+            height: 40px;
+            text-align: center;
+            background-color: white;
+        }
+        .txt2 {
+            font-size: 45px;
+            color: #ff5522;
+            margin-left: 730px;
+            display: flex;
+            margin-top: -90px;
+        }
+        .input1 {
+            width: 1000px;
+            height: 30px;
+            border-radius: 5px;
+            padding: 5px;
+        }
+        .input2 {
+            width: 1000px;
+            height: 30px;
+            border-radius: 5px;
+            padding: 5px;
+        }
+        .input3 {
+            width: 130px;
+            height: 30px;
+            color: #ff5522;
+            border: 2px solid #ff5522;
+            cursor: pointer;  /* Change le curseur en pointeur au survol */
+            font-size: 16px;
+            margin-left: -880px;
+            font-size: 13px;}
+        .input4 {
+            width: 100px;
+            height: 30px;
+            color: #ff5522;
+            border: 2px solid #ff5522;
+            cursor: pointer;  /* Change le curseur en pointeur au survol */
+            font-size: 16px;
+            margin-left: 570px;
+            margin-top: -25px;
+            display: flex;
+            font-size: 13px;
+        }
+        .input5 {
+            width: 100px;
+            height: 30px;
+            color: #ff5522;
+            border: 2px solid #ff5522;
+            cursor: pointer;  /* Change le curseur en pointeur au survol */
+            font-size: 16px;
+            margin-left: 310px;
+            margin-top: -25px;
+            display: flex;
+            font-size: 13px;
+        }
+        .vertical-bar {
+            background-color: white;
+            width: 1px;
+            height: 12px;
+            margin-top: 0px;
+            margin-left: 20px;
+            
+            
+        }
+        .portail {
+            margin-left: 30px;
+            color: white;
+            font-size: 15px;
+            margin-top: 0px;
+        }
+        .campus {
+            margin-left: 1070px;
+            color: gray;
+            font-size: 20px;
+            margin-top: -30px;
+            display: flex;
+            color: #ff5522;
+        }
+        .vertical-bar2 {
+            background-color: #ff5522;
+            width: 3px;
+            height: 38px;
+            margin-top: -40px;
+            margin-left: 1050px;
+            display: flex;
+        }
+        .mot1, .mot2, .mot3, .mot4, .mot5 {
+            color: white;
+            transition: color 0.1s ease; 
+            margin-left: 30px; 
+            font-size: 15px; 
+            text-decoration: none
+        }
+        .mot1:hover, .mot2:hover, .mot3:hover, .mot4:hover, .mot5:hover {
+            color: #ff5522;
+        }
+        .txt3{
+            font-size: 15px;
+            color: #ff5522;
+            margin-left: -8px;
+            display: flex;
+        }
+        .txt4{
+            font-size: 18px;
+            color: black;
+            margin-left: 50px;
+            display: flex;
+        }
+        .menu3bisbis{
+            display: flex;
+            margin-left: 80px;
+            margin-top: 50px
+        }
+        .emoji{ 
+            width: 23px;
+            height: auto;
+            margin-left: -30px;
+        }

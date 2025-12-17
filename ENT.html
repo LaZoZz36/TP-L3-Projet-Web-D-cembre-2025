@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ENT.css">
+    <title>CAS-Central Authentification Service Connexion</title>
+</head>
+<body style="background-color: rgba(0, 0, 0, 0.08);">
+
+    <div class="menu1">
+    <menu>
+        <a href="https://www.universita.corsica/fr/" style="color: white; margin-left: 130px; font-size: 15px; text-decoration: none;">UNIVERSITA DI CORSICA</a>
+        <div class="vertical-bar"></div>
+        <a class="portail">NOS PORTAILS :</a>
+        <a class="mot1" href="https://studia.universita.corsica/">Etudiants</a>
+        <a class="mot2" href="https://auth.univ-corse.fr/cas/login?id_site=0&locale=fr&lang=fr&service=https://portailweb.universita.corsica/plugins/auth/auth_cas/auth_cas.php">Personnels</a>
+        <a class="mot3" href="https://ricerca.universita.corsica/">Recherche</a>
+        <a class="mot4" href="https://pro.universita.corsica/">Partenaires Pro</a>
+        <a class="mot5" href="https://fundazione.universita.corsica/">Fondation</a>
+    </menu>
+    
+</div>  
+
+    <div class="menu2">
+        <menu id="M1">
+            <a href="https://www.universita.corsica/fr/">
+            <img src="logo.jpg" alt="logo" id="logo">
+            </a>
+            <a class="txt2">Authentification</a>
+            <div class="vertical-bar2"></div>
+            <a class="campus">Campus Numérique</a>
+        </menu>
+    </div>
+
+<div>
+    <menu class="menu3bis">
+        <menu class="menu3">
+            <a class="txt3">>Vous êtes étudiant, personnel, vacataire ou ALUMNI de l'Università di Corsica</a><br>
+            <form action="#" method="post">
+                <label for="username" style="margin-left: -870px; color: gray;">Identifiant :</label><br>
+                <input type="text" id="username" name="username" class="input1" style="border: 1px solid gray;"><br><br>
+                <label for="password" style="margin-left: -870px; color: gray   ;">Mot de passe :</label><br>
+                <input type="password" id="password" name="password" class="input2" style="border: 1px solid gray;" required><br><br>
+                <input type="submit" value="SE CONNECTER" class="input3"><br>
+            </form>
+            <div class="menu3bisbis">
+                <img src="emoji.jpg" class="emoji">   
+                <a href="https://activation.universita.corsica/guichet_activation_reset_compte-front.php?acces=ok&amp;profil=&amp;id_site=0&amp;type=changement">Mot de passe oublié&nbsp;?</a>
+                <a href="https://dsin.universita.corsica/plugins/faq/listing_faq-front.php?id_faq=5&amp;acces=ok&amp;id_art=4515&amp;id_rub=0&amp;id_site=47&amp;id_menu=0&amp;header_plugin=ok" target="_blank">Besoin d'aide ?</a>
+            </div>
+            <div>
+                <br><a class="txt4">Pour des raisons de sécurité, veuillez vous déconnecter et fermer votre navigateur lorsque vous avez fini d’accéder aux services authentifiés.</a>
+            </div>
+        </menu>
+        <menu class="menu4">
+            <a class="txt4" style="font-size: 18px;color : #ff5522; margin-left: -10px; display: flex; margin-top: 10px;">> Vous êtes nouvel arrivant à l'Università di Corsica, pour activer votre compte</a>
+            <input type="button" value="CLIQUER ICI" onclick="window.location.href='https://applisweb.universita.corsica/portail/PWD/guichet_activation_reset_compte-front.php?acces=ok&profil=&id_site=0&type=activation'" class="input4">
+        </menu>
+        <div class="menu5">
+            <a class="txt4" style="font-size: 18px;color : #ff5522; margin-left: -10px; display: flex; margin-top: 10px;">> Vous êtes extérieur, pour vous connecter</a>
+            <input type="button" value="CLIQUER ICI" onclick="window.location.href='https://applisweb.universita.corsica/portail/PWD/guichet_activation_reset_compte-front.php?acces=ok&profil=&id_site=0&type=activation'" class="input5">
+        </div>
+    </menu>
+</div>
+</body>
+</html>
